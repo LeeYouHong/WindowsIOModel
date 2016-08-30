@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsyncSelect_Server", "IOModel\IOModel.vcproj", "{66EB82C1-5FAC-4EF4-B8CE-78066C4ADDF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WSAEventSelect_Server", "WSAEventSelect_Server\WSAEventSelect_Server.vcproj", "{38D45D86-E11F-4BFC-A799-7C28E693A188}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcproj", "{ECC9513D-E377-4ED3-9743-D4413E03284D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\client.vcproj", "{7EF20715-E0CF-4E16-86BE-BE5A5F7ED5B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66EB82C1-5FAC-4EF4-B8CE-78066C4ADDF9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66EB82C1-5FAC-4EF4-B8CE-78066C4ADDF9}.Debug|Win32.Build.0 = Debug|Win32
+		{66EB82C1-5FAC-4EF4-B8CE-78066C4ADDF9}.Release|Win32.ActiveCfg = Release|Win32
+		{66EB82C1-5FAC-4EF4-B8CE-78066C4ADDF9}.Release|Win32.Build.0 = Release|Win32
+		{38D45D86-E11F-4BFC-A799-7C28E693A188}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38D45D86-E11F-4BFC-A799-7C28E693A188}.Debug|Win32.Build.0 = Debug|Win32
+		{38D45D86-E11F-4BFC-A799-7C28E693A188}.Release|Win32.ActiveCfg = Release|Win32
+		{38D45D86-E11F-4BFC-A799-7C28E693A188}.Release|Win32.Build.0 = Release|Win32
+		{ECC9513D-E377-4ED3-9743-D4413E03284D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECC9513D-E377-4ED3-9743-D4413E03284D}.Debug|Win32.Build.0 = Debug|Win32
+		{ECC9513D-E377-4ED3-9743-D4413E03284D}.Release|Win32.ActiveCfg = Release|Win32
+		{ECC9513D-E377-4ED3-9743-D4413E03284D}.Release|Win32.Build.0 = Release|Win32
+		{7EF20715-E0CF-4E16-86BE-BE5A5F7ED5B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7EF20715-E0CF-4E16-86BE-BE5A5F7ED5B3}.Debug|Win32.Build.0 = Debug|Win32
+		{7EF20715-E0CF-4E16-86BE-BE5A5F7ED5B3}.Release|Win32.ActiveCfg = Release|Win32
+		{7EF20715-E0CF-4E16-86BE-BE5A5F7ED5B3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
